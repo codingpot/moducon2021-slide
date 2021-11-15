@@ -1,4 +1,5 @@
 Package: moducon2021-codingpot
+Version: 0.0.1
 Authors@R: person(given = "Chanyub",
              family = "Park",
              role = c("aut","cre"),
