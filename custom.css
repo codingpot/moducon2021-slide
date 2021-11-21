@@ -4,6 +4,26 @@
 
 html, body, h1, h2, h3, h4, h5, h6, li, p {font-family:'Spoqa Han Sans Neo', 'sans-serif';}
 
+.title-slide h1 {
+    padding-left: 0;
+}
+
+
+.remark-slide-content h2 {
+    color: #7912af;
+    font-size: 40px;
+    padding-left: 0;
+}
+
+.remark-slide-content p, li {
+    font-size: 30px;
+}
+
+h1 {
+  color: #7912af;
+  padding-left: 0;
+}
+
 .pen-b {
   font-family: 'Nanum Brush Script', cursive;
   font-size: 130%;
@@ -54,4 +74,8 @@ html, body, h1, h2, h3, h4, h5, h6, li, p {font-family:'Spoqa Han Sans Neo', 'sa
   position: relative;
   left: 50%;
   width: 118%
+}
+
+.remark-slide-number {
+  display: none;
 }

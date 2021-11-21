@@ -1,5 +1,5 @@
 ---
-title: "kiwigo - go 한글 형태소 분석기 패키지를 개발하며 배운 것"
+title: "R 형태소 분석기를 만드는 거대한 야크 털 깎기(feat. 커뮤니티, 오픈소스, 사이드프로젝트)"
 author: "박찬엽"
 date: "2021년 4월 26일"
 output:
@@ -16,22 +16,17 @@ output:
 
 layout: true
 
-background-image: url(https://user-images.githubusercontent.com/6179259/60290723-50002480-9954-11e9-96fe-3fbd4d7d11d9.png)
+background-image: url(https://user-images.githubusercontent.com/6179259/142754636-8a279411-cb10-4379-8940-128551afc76b.png)
 background-size: cover
 
 ---
-class: center, middle, title-slide
+class: middle, title-slide
 
-## kiwigo - go 한글 형태소 분석기 패키지를 개발하며 배운 것
-
-### <https://codingpot.github.io/moducon2021-slide>
-
-#### [[의견 및 오류 신고]](https://github.com/codingpot/moducon2021-slide/issues/new)
-#### [스타누르기](https://github.com/codingpot/moducon2021-slide)는 컨텐츠 제작자를 춤추게 합니다.
+# R 형태소 분석기를 만드는 거대한 야크 털 깎기
+### feat. 커뮤니티, 오픈소스, 사이드프로젝트
 
 ### 박찬엽
-
-### 2019년 4월 26일
+### <https://codingpot.github.io/moducon2021-slide>
 
 ---
 class: split-50 
