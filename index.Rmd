@@ -22,10 +22,9 @@ background-size: cover
 ---
 class: middle, title-slide
 
-# R 형태소 분석기를 만드는 거대한 야크 털 깎기
-### feat. 커뮤니티, 오픈소스, 사이드프로젝트
+# .mm-purple[R 형태소 분석기를 만드는 거대한 야크 털 깎기]
+### feat. 커뮤니티, 오픈소스, 사이드프로젝트 / 박찬엽
 
-### 박찬엽
 ### <https://codingpot.github.io/moducon2021-slide>
 
 ---
@@ -38,26 +37,22 @@ class: split-50
 ]]
 .column[.content.left[
 <br>
-### 박찬엽     
+## 박찬엽     
 
 <figure>
   <img width=20% style="float: left; margin-right: 5px;" src="https://user-images.githubusercontent.com/6179259/141678801-9802a62f-b0f3-4605-9d8a-cd5eb7c89f98.png">
-  <figcaption>.yellow[(현)] 코딩맛집 운영진</figcaption>
+  <figcaption> <p>코딩맛집 운영진 <br>.blue[박박사] </p></figcaption>
 </figure>
-<br>
-<br>
 <figure>
   <img width=20% style="float: left; margin-right: 5px;" src="https://avatars.githubusercontent.com/u/52529086?s=200&v=4">
-  <figcaption>.yellow[(현)] 팟캐스트 데이터홀릭 .blue[박박사]</figcaption>
+  <figcaption> <p> 팟캐스트 데이터홀릭 <br>.blue[박박사] </p> </figcaption>
 </figure>
-<br>
-<br>
-- .gray[(전)]2017년 패스트 캠퍼스 데이터 분석 R 강의
-  * [데이터 분석을 위한 중급 R 프로그래밍](http://www.fastcampus.co.kr/data_camp_dabrp/)
-- [ForkonLP](https://forkonlp.github.io/) 프로젝트 오너
-  * N사 뉴스 크롤러 [N2H4](https://github.com/forkonlp/N2H4), D사 뉴스 크롤러 [DNH4](https://github.com/forkonlp/DNH4)
-
-  
+<figure>
+  <img width=20% style="float: left; margin-right: 5px;" src="https://avatars.githubusercontent.com/u/20684224?s=200&v=4">
+  <figcaption> <p> ForkonLP 프로젝트 오너 <br>
+  .small[N, D사 뉴스 크롤러 [N2H4](https://github.com/forkonlp/N2H4), [DNH4](https://github.com/forkonlp/DNH4)] 
+  </p></figcaption>
+</figure>
 
 - .blue[**FACEBOOK**]@[mrchypark](https://www.facebook.com/mrchypark)
 - .gray[**GITHUB**]@[mrchypark](https://github.com/mrchypark)

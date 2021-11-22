@@ -4,24 +4,13 @@
 
 html, body, h1, h2, h3, h4, h5, h6, li, p {font-family:'Spoqa Han Sans Neo', 'sans-serif';}
 
-.title-slide h1 {
-    padding-left: 0;
-}
-
-
 .remark-slide-content h2 {
-    color: #7912af;
     font-size: 40px;
     padding-left: 0;
 }
 
 .remark-slide-content p, li {
     font-size: 30px;
-}
-
-h1 {
-  color: #7912af;
-  padding-left: 0;
 }
 
 .pen-b {
@@ -34,11 +23,15 @@ h1 {
   font-size: 130%;
 }
 
-.blue {
+.fb-blue {
   color: #3b5998;
 }
 
-.yellow {
+.mm-purple {
+  color: #7912af;
+}
+
+.kt-yellow {
   color: #FFCB01;
 }
 
@@ -49,32 +42,6 @@ h1 {
 .large { font-size: 130% }
 .small { font-size: 70%  }
 .tiny  { font-size: 40%  }
-
-/* The Magic Float Center Code */
-.pull-center {
-  float: right;
-
-  position: relative;
-  right: 50%; /* or right 50% */
-  text-align: left;
-  width: 60%
-}
-.pull-center > .set {
-  position: relative;
-  left: 50%;
-}
-
-.pull-center > .ori {
-  position: relative;
-  left: 50%;
-  width: 134%
-}
-
-.pull-center > .half {
-  position: relative;
-  left: 50%;
-  width: 118%
-}
 
 .remark-slide-number {
   display: none;
