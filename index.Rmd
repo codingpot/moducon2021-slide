@@ -5,7 +5,7 @@ date: "2021년 4월 26일"
 output:
   xaringan::moon_reader:
     seal: false
-    css: ["default", "ninjutsu", "custom.css"]
+    css: ["default", "custom.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -67,11 +67,9 @@ class: middle, title-slide
 
 <figure>
   <img width=20% style="float: left; margin-right: 10px;" src="https://avatars.githubusercontent.com/u/20684224?s=200&v=4">
-  <figcaption> <p> ForkonLP 프로젝트 </p>
+  <figcaption> <p> ForkonLP <br> * 한글 분석 지원 </p> </p>
   </figcaption>
 </figure>
-
-<br>
 - .fb-blue[**FACEBOOK**]@[mrchypark](https://www.facebook.com/mrchypark)
 - .gh-gray[**GITHUB**]@[mrchypark](https://github.com/mrchypark)
 ]
