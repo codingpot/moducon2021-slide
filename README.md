@@ -1,7 +1,12 @@
-# moducon2021-slide
+# moducon2021-slide 
 
-2021 모두콘 소개 발표 자료
+2021 모두콘(<https://moducon.kr/>) 발표 자료
 
-<https://codingpot.github.io/moducon2021-slide>
+2021년 12월 4일 토요일
 
-![](https://user-images.githubusercontent.com/6179259/143504517-6ae5e501-d1a2-4bbc-9a25-a5a3763bbd6a.png)
+발표자료 바로가기: <https://codingpot.github.io/moducon2021-slide>
+
+![](https://user-images.githubusercontent.com/6179259/143504627-7a952e94-7295-4b72-9d88-8e47c87ee38c.png)
+
+
+
