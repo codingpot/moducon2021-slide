@@ -238,13 +238,6 @@ class: middle, title-slide
 > 관심사 기반 수다!
 
 ---
-
-## 문제를 해결하는 방법
-
-1. 머리 싸메고 직접 공부해서 해결책을 찾는다
-1. 해결할 수 있는 사람에게 부탁한다
-
----
 class: middle, title-slide
 
 ## .mm-purple[R 형태소 분석 패키지를 만드는 길]
