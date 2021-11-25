@@ -6,6 +6,11 @@
     <meta name="author" content="박찬엽" />
     <script src="libs/header-attrs-2.11/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+    <link href="libs/vis-4.16.1/vis.min.css" rel="stylesheet" />
+    <script src="libs/vis-4.16.1/vis.min.js"></script>
+    <link href="libs/timeline-0.4/timevis.css" rel="stylesheet" />
+    <script src="libs/timevis-binding-1.0.0/timevis.js"></script>
     <link rel="stylesheet" href="custom.css" type="text/css" />
   </head>
   <body>
@@ -42,16 +47,34 @@ class: middle, title-slide
 ### feat. 커뮤니티, 오픈소스, 사이드프로젝트 - 박찬엽
 
 ---
-
-
 .pull-left[
-## .mm-purple[발표인 소개]
+## .mm-purple[발표자 소개]
+&lt;figure&gt;
+  &lt;img width=100% src="https://user-images.githubusercontent.com/6179259/143404814-96feff4f-20ec-47bd-9ee1-9c0a33b80d02.jpg"&gt;
+&lt;/figure&gt;
+]
+.pull-right[
+&lt;br&gt;
+## 박찬엽
+
+- 육아하는 평범한 개발자
+- 쿠버네티스, mlops, 자동화 에 관심
+
+- .fb-blue[**FACEBOOK**]@[mrchypark](https://www.facebook.com/mrchypark)
+- .gh-gray[**GITHUB**]@[mrchypark](https://github.com/mrchypark)
+]
+
+---
+.pull-left[
+## .mm-purple[발표자 소개(부케)]
 &lt;figure&gt;
   &lt;img width=100% src="https://avatars2.githubusercontent.com/u/6179259?v=4&amp;s=460"&gt;
 &lt;/figure&gt;
 ]
 .pull-right[
 &lt;br&gt;
+
+## 박박사
 
 &lt;figure&gt;
   &lt;img width=20% style="float: left; margin-right: 10px;" src="https://user-images.githubusercontent.com/6179259/141678801-9802a62f-b0f3-4605-9d8a-cd5eb7c89f98.png"&gt;
@@ -60,7 +83,7 @@ class: middle, title-slide
 
 &lt;figure&gt;
   &lt;img width=20% style="float: left; margin-right: 10px;" src="https://avatars.githubusercontent.com/u/52529086?s=200&amp;v=4"&gt;
-  &lt;figcaption&gt; &lt;p&gt; Podcast 데이터홀릭 &lt;br&gt;* .fb-blue[**박박사**] &lt;/p&gt;&lt;/figcaption&gt;
+  &lt;figcaption&gt; &lt;p&gt; 데이터홀릭 팟캐스트 &lt;br&gt;* .fb-blue[**박박사**] &lt;/p&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
@@ -68,17 +91,302 @@ class: middle, title-slide
   &lt;figcaption&gt; &lt;p&gt; ForkonLP &lt;br&gt; * 한글 분석 지원 &lt;/p&gt; &lt;/p&gt;
   &lt;/figcaption&gt;
 &lt;/figure&gt;
-- .fb-blue[**FACEBOOK**]@[mrchypark](https://www.facebook.com/mrchypark)
-- .gh-gray[**GITHUB**]@[mrchypark](https://github.com/mrchypark)
 ]
+
+---
+## .mm-purple[코딩맛집]
+
+- 다양한 사람들이 정보 교류와 네트워킹을 위해서 모인 커뮤니티
+- GDE, 번역 작업을 많이 하고 계신 [박찬성](https://www.facebook.com/Thomas.CS.Park)님이 처음 시작
+- 많은 커뮤니티 활동 해주시고 계신 [권경모](https://www.facebook.com/kkweon)님 합류
+- 사이드 프로젝트, 소식 공유, 스터디 등 활동
+
+![](https://user-images.githubusercontent.com/6179259/143490729-9bf379ae-b176-40bc-8d8b-4c1254c65ccb.png)
+--
+
+.right[**오른쪽 아래 아이콘들 클릭하면 링크에요!**]
+
+---
+## .mm-purple[데이터홀릭]
+
+- 2019년 4월 시작한 데이터 분야 전문 팟캐스트
+- 현재 김팀장, 앨리스, 박박사가 패널로 게스트를 모시고 녹음
+- 팟빵 2,500 여명, 유튜브 3,800 여명 구독 중
+- 여러 기업의 채용 방송, 게스트 방송 진행
+
+![](https://user-images.githubusercontent.com/6179259/143490109-fb4f1f31-487c-48bd-8da9-f12ad3b49a76.png)
+--
+
+.center[**구독, 좋아요, 알람 설정, 후원, 기업 강의, 채용 방송 문의등 대환영!**]
 
 ---
 
 class: middle, title-slide
 
-# .mm-purple[.pen-p[앓던 이]] 가 빠진 것 같다
+## .mm-purple[커뮤니티 활동 좋다는 사람(저 포함)이 많은데...]
 
 ---
+class: middle, title-slide
+
+## .mm-purple[혹시 .pen-p[운] 이 좋았던 것은 아닐까?]
+
+---
+![](https://user-images.githubusercontent.com/6179259/143491260-f8f10009-1fa6-40b5-8817-6c54a1de0485.png)
+
+---
+class: middle, title-slide
+
+## .mm-purple[저는 운 좋게도 커뮤니티 활동으로 혜택을 얻었습니다.]
+
+---
+class: middle, title-slide
+
+# .mm-purple[커뮤니티 활동의 혜택]
+
+### 세상 참 좁은데, 나를 모르는 사람들과 미리 친해질 수 있다!
+
+---
+class: middle, title-slide
+
+## .mm-purple[미리 친한 것이 왜 중요할까요?]
+
+---
+
+## .mm-purple[죄수의 딜레마]
+
+| (단위: 점) |          | 프로그램 B |          |
+|:----------:|:--------:|:----------:|:--------:|
+|            |          |  협력하기  | 배신하기 | 
+| 프로그램 A | 협력하기 |   (3, 3)   |  (0, 5)  | 
+|            | 배신하기 |   (5, 0)   |  (1, 1)  | 
+
+- 2명이 2가지 중 하나를 선택하여 높은 점수를 얻는 것이 목표
+- 상대방이 협력할 때: 내가 협력하면 3점, 배신하면 .mm-purple[**5**]점
+- 상대방이 대신할 때: 내가 협력하면 0점, 배신하면 .mm-purple[**1**]점
+
+--
+
+# .center[배신이 .pen-b[합리적인] 선택]
+
+---
+class: middle, title-slide
+
+## .mm-purple[그렇다면] 반복.mm-purple[해서 진행하면 어떻게 될까?]
+
+---
+
+## .mm-purple[Tit-for-Tat] 이 우승
+
+- 전략
+  1. 첫 선택은 무조건 협력한다.
+  1. 이후 상대방의 이전 선택과 같은 선택을 한다.
+
+- 전략의 특징
+  1. 선제적 협력과 신뢰
+  1. 배신에 대한 즉각적 보복
+  1. 적극적인 용서
+  1. 상대방이 이해하기 쉬운 전략 투명성
+
+---
+
+## .mm-purple[상위권 전략의 특징]
+
+- 선제적 협력과 신뢰
+- 배신을 당했더라도, 다시 협력의 기회 제공
+- 상대방이 이해하기 쉬운 전략 투명성
+
+---
+
+## .mm-purple[선제적 협력이 고득점이기 위한 조건]
+
+- 1회가 아니라 여러 번 반복
+- 상대방의 선택이 투명하게 공개
+- 과거 상대방의 선택을 모두 기억
+
+--
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+# .center[.pen-p[**세상은 좁다!**]]
+---
+class: middle, title-slide
+
+## .mm-purple[선제적 협력 은 좁은 세상을 살아가는데 좋은 전략!]
+
+---
+class: middle, title-slide
+
+## .mm-purple[선제적 협력 == 오픈 소스, 커뮤니티 활동]
+
+---
+class: middle, title-slide
+
+## .mm-purple[선제적 협력 덕분에 미리 친해지는 것]
+
+---
+
+## 미리 친해진 덕분에 제가 얻은 것
+
+&gt; R 데이터 분석 분야 강사 제안
+
+&gt; 현재 회사의 이직 추천
+
+&gt; 원활한 데이터홀릭 방송 게스트 섭외
+
+--
+
+사실...
+
+&gt; 관심사 기반 수다!
+
+---
+
+## 문제를 해결하는 방법
+
+1. 머리 싸메고 직접 공부해서 해결책을 찾는다
+1. 해결할 수 있는 사람에게 부탁한다
+
+---
+class: middle, title-slide
+
+## .mm-purple[R 형태소 분석 패키지를 만드는 길]
+
+---
+## .mm-purple[저는 R 개발자 입니다]
+
+- 텍스트 마이닝을 위한 도구가 어렵다!
+
+- KoNLP가 CRAN에서 내려가고 jdk를 써야 해서 설치가 어렵다. 
+
+- RMecebKo는 원문 복원을 안해주고, 사전 기능이 어렵다.
+
+- 결국 설치가 쉽고, 원문 복원되면서 사용자 사전 기능을 제공하는 패키지가 필요
+
+---
+class: middle, title-slide
+
+## .mm-purple[근데 능력이 안됨]
+
+
+---
+class: middle, title-slide
+
+## .mm-purple[형태소 분석기를 직접 만들 능력]
+
+## .mm-purple[cpp 소스를 연결한 패키지를 만들 능력]
+
+---
+class: center, middle, title-slide
+![](https://t1.daumcdn.net/cfile/blog/9906BD335A1CBF5B10?original)
+
+---
+
+class: middle, title-slide
+## .mm-purple[그간 문제를 해결한 방식]
+
+---
+class: middle, title-slide
+## .mm-purple[할 수 있는 걸 하자]
+
+---
+class: middle, title-slide
+## .mm-purple[설치를 쉽게 만들자]
+
+---
+
+## 삽질 타임라인
+
+<div id="htmlwidget-36a375e1cbbdf68ed918" class="timevis html-widget" style="width:100%;height:280px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-36a375e1cbbdf68ed918">{"x":{"items":[{"id":"1","content":"conda4r 패키지 개발","start":"2019-07-20"},{"id":"2","content":"jdk 설치 매니저 탐색","start":"2019-08-11"},{"id":"3","content":"corretto 공개","start":"2019-08-20"},{"id":"4","content":"correttor 패키지 개발","start":"2019-12-03"},{"id":"5","content":"multilinguer 패키지 개발","start":"2020-02-14"}],"groups":null,"showZoom":false,"zoomFactor":0.5,"fit":true,"options":[],"height":"280px","timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+
+---
+class: middle, title-slide
+
+## .mm-purple[물론, 현실은 시궁창]
+
+---
+class: middle, title-slide
+
+## .mm-purple[새로운 기회]
+
+
+---
+class: middle, title-slide
+
+## .mm-purple[새로운 기회 == 코딩 맛집]
+
+---
+class: center, middle, title-slide
+![](https://user-images.githubusercontent.com/6179259/141707014-d6709895-77f9-4e0a-ba1e-15560f29bdeb.png)
+
+---
+## kiwigo
+
+1. 2021년 10월 23일 시작, 2021년 10월 31일 종료 (총 9일 소요)
+
+![](https://user-images.githubusercontent.com/6179259/143501495-f63e5b06-8f24-464c-84e1-8116f6e4fb0c.png)
+
+---
+## kiwigo를 통해 배운 점
+
+- cpp 소스의 빌드와 설치의 의미    
+- header 파일 사용하는 방법    
+- cgo 사용법 - go에서 c header 호출    
+- go 패키지 개발 및 공개
+
+---
+## kiwigo를 통해 배운 점
+
+- 역시 개발자는 코드로 말해야 하는 법
+- 이슈 작성시 재현 코드가 있는 것이 명확한 의사를 전달할 수 있음
+&gt; https://github.com/codingpot/kiwigo/issues/27
+
+---
+.pull-left[
+## kiwigo를 통해 배운 점
+
+- 홍보도 열심히 해야 함
+
+&lt;img width=90% src="https://user-images.githubusercontent.com/6179259/143502045-289767fc-8806-44c8-85d3-43d99df65933.png"&gt;
+]
+
+&lt;img width=40% src="https://user-images.githubusercontent.com/6179259/143501966-370ca6a2-f307-4aa7-a9d5-e7f9c3e9197a.png"&gt;
+
+---
+## .mm-purple[이 경험을 통해]
+- 혼자 하는 것 보다 여럿이 하는 것이 좋을 수 있다
+&gt; 2년간 혼자 해결하지 못해 돌아간 문제를 9일만에 중간 목표 해결
+- 모두 같은 목표를 가질 수 없으니 중간 목표라도 통일된 목표로 전환할 수도 있다.
+
+&lt;br&gt;
+## .center[각자의 분야에 실력있고, 성장하고 싶고, 의욕 넘치는 사람이 많은 곳에 적극적으로 참여하는 것의 기쁨을 알게 됨]
+
+---
+class: middle, title-slide, center
+## .mm-purple[저에게 있어서 코딩맛집이 그런 곳]
+
+&lt;img width=20% style="float: center" src="https://user-images.githubusercontent.com/6179259/141678801-9802a62f-b0f3-4605-9d8a-cd5eb7c89f98.png"&gt;
+
+---
+class: title-slide, center
+&lt;br&gt;
+&lt;br&gt;
+## .mm-purple[커뮤니티에 참여하세요!]
+
+--
+
+## 코딩맛집도 한번 고려해주시구요 ;)
+
+---
+class: title-slide, center, middle
+
+# 끝
 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
