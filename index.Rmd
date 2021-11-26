@@ -1,7 +1,7 @@
 ---
 title: "R 형태소 분석기를 만드는 거대한 야크 털 깎기(feat. 커뮤니티, 오픈소스, 사이드프로젝트)"
 author: "박찬엽"
-date: "2021년 4월 26일"
+date: "2021년 11월 25일"
 output:
   xaringan::moon_reader:
     seal: false
