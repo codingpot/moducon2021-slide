@@ -148,7 +148,6 @@ class: middle, title-slide
 ## .mm-purple[미리 친한 것이 왜 중요할까요?]
 
 ---
-
 ## .mm-purple[죄수의 딜레마]
 
 | (단위: 점) |          | 프로그램 B |          |
