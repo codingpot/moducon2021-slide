@@ -170,7 +170,6 @@ class: middle, title-slide
 ## .mm-purple[그렇다면] 반복.mm-purple[해서 진행하면 어떻게 될까?]
 
 ---
-
 ## .mm-purple[Tit-for-Tat] 이 우승
 
 - 전략
